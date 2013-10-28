@@ -12,10 +12,10 @@
 		hideForm		= 0;
 	*/
 
-	var defaultKey		= '', // Unique master Xively API key to be used as a default
-		defaultFeeds	= [], // Comma separated array of Xively Feed ID numbers
-		applicationName	= '', // Replaces Xively logo in the header
-		dataDuration	= '', // Default duration of data to be displayed // ref: https://xively.com/dev/docs/api/data/read/historical_data/
+	var defaultKey		= 'oOPGhUu9fWNst6FKxWdu6lDuYx5psu5nocT6Z0VVmv18J1jI', // Unique master Xively API key to be used as a default
+		defaultFeeds	= [1156420415], // Comma separated array of Xively Feed ID numbers
+		applicationName	= '清华大学媒体实验室湿度传感器', // Replaces Xively logo in the header
+		dataDuration	= '15', // Default duration of data to be displayed // ref: https://xively.com/dev/docs/api/data/read/historical_data/
 		dataInterval	= 0, // Default interval for data to be displayed (in seconds)
 		dataColor		= '', // CSS HEX value of color to represent data (omit leading #)
 		hideForm		= 0; // To hide input form use value of 1, otherwise set to 0
@@ -348,7 +348,7 @@
 
 					$('#feed-' + data.id + ' .duration-90').click(function() {
 						$('#loadingData').foundation('reveal', 'open');
-						updateFeeds(data.id, thisFeedDatastreams, '90days', 10800);
+						updateFeeds(data.id, thisFeedDatastreams, '1year', 43200);
 						return false;
 					});
 
