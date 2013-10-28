@@ -12,12 +12,12 @@
 		hideForm		= 0;
 	*/
 
-	var defaultKey		= 'oOPGhUu9fWNst6FKxWdu6lDuYx5psu5nocT6Z0VVmv18J1jI', // Unique master Xively API key to be used as a default
-		defaultFeeds	= ['1156420415'], // Comma separated array of Xively Feed ID numbers
+	var defaultKey		= 'fje329iun52ngtuijo2f4jeun432A', // Unique master Xively API key to be used as a default
+		defaultFeeds	= [61916,12425,94322], // Comma separated array of Xively Feed ID numbers
 		applicationName	= '清华大学媒体实验室湿度传感器', // Replaces Xively logo in the header
-		dataDuration	= '15', // Default duration of data to be displayed // ref: https://xively.com/dev/docs/api/data/read/historical_data/
-		dataInterval	= 0, // Default interval for data to be displayed (in seconds)
-		dataColor		= '', // CSS HEX value of color to represent data (omit leading #)
+		dataDuration	= '1year', // Default duration of data to be displayed // ref: https://xively.com/dev/docs/api/data/read/historical_data/
+		dataInterval	= 43200, // Default interval for data to be displayed (in seconds)
+		dataColor		= '0A1922', // CSS HEX value of color to represent data (omit leading #)
 		hideForm		= 0; // To hide input form use value of 1, otherwise set to 0
 
 // Function Declarations
