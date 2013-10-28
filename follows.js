@@ -13,7 +13,7 @@
 	*/
 
 	var defaultKey		= 'oOPGhUu9fWNst6FKxWdu6lDuYx5psu5nocT6Z0VVmv18J1jI', // Unique master Xively API key to be used as a default
-		defaultFeeds	= [1156420415,'soil_moisture'], // Comma separated array of Xively Feed ID numbers
+		defaultFeeds	= ['1156420415'], // Comma separated array of Xively Feed ID numbers
 		applicationName	= '清华大学媒体实验室湿度传感器', // Replaces Xively logo in the header
 		dataDuration	= '15', // Default duration of data to be displayed // ref: https://xively.com/dev/docs/api/data/read/historical_data/
 		dataInterval	= 0, // Default interval for data to be displayed (in seconds)
